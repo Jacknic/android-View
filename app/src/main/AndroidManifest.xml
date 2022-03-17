@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TDD">
         <activity
-            android:name="com.jacknic.view.StarterActivity"
+            android:name="StarterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +19,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.jacknic.view.camera.CameraActivity"
+            android:name=".camera.CameraActivity"
             android:label="Camera 基础用法" />
+        <activity
+            android:name=".rotate3d.Rotate3dActivity"
+            android:label="Animation 3D 旋转" />
     </application>
 
 </manifest>
