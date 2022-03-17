@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
     id 'kotlin-parcelize'
 }
 
@@ -8,7 +9,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.jacknic.tdd"
+        applicationId "com.jacknic.view"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -30,8 +31,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    testOptions{
+    testOptions {
         unitTests.includeAndroidResources = true
+    }
+
+    buildFeatures {
+        viewBinding true
     }
 }
 
