@@ -27,6 +27,9 @@
         <activity
             android:name=".bevel.BevelActivity"
             android:label="圆角斜边卡片布局" />
+        <activity
+            android:name=".xfermode.XfermodeActivity"
+            android:label="xfermode 绘制模式视图" />
     </application>
 
 </manifest>
