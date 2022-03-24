@@ -24,6 +24,9 @@
         <activity
             android:name=".rotate3d.Rotate3dActivity"
             android:label="Animation 3D 旋转" />
+        <activity
+            android:name=".bevel.BevelActivity"
+            android:label="圆角斜边卡片布局" />
     </application>
 
 </manifest>
