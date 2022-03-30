@@ -30,6 +30,9 @@
         <activity
             android:name=".xfermode.XfermodeActivity"
             android:label="xfermode 绘制模式视图" />
+        <activity
+            android:name=".viewpager2.ViewPager2Activity"
+            android:label=" ViewPager2 的基础使用" />
     </application>
 
 </manifest>
